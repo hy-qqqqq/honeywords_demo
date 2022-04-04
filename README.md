@@ -41,3 +41,29 @@ Communicate with the honeychecker by using command `set` and `check`.
 * `shadowfile` hashed password file.
 * `table_c` table in honeychecker where secret information stored, including user index and corresponding correct password index.
 * `flatness` the adversary’s expected probability of guessing the right password.
+
+<h2> Usage </h2>
+
+<h3> Run program </h3>
+
+```
+python3 server.py
+```
+or
+```
+py server.py
+```
+
+<h3> Stop verbosing </h3>
+
+modify the `log level` in logging line in `server.py`
+```
+logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
+```
+
+<h3> Change honeywords generation method </h3>
+
+modify the params in function `chpwd` in `server.py`  
+```
+gen.legacy_UI(params=...)
+```
