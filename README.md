@@ -25,6 +25,12 @@ It is a separated system where secret information is stored. The secret informat
 corresponding real password index (per user).  
 Communicate with the honeychecker by using command `set` and `check`.
 
+<h3> Working mechanism </h3>
+
+![honeychecker set](/images/honeychecker-set.drawio.svg)
+
+![honeychecker check](/images/honeychecker-check.drawio.svg)
+
 <h2> Other terminologies </h2>
 
 * `sugarword` correct user password.
