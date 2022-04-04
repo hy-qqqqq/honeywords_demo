@@ -151,7 +151,7 @@ def dump_shadow():
     logger.info('Server dump shadow.')
 
 if __name__ == '__main__':
-    # set up logger (remove 'level' argument to stop verbosing)
+    # set up logger (modify 'level' argument to stop verbosing)
     logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
     logger.info("Verbose output.")
 
