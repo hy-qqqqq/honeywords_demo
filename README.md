@@ -27,8 +27,10 @@ Communicate with the honeychecker by using command `set` and `check`.
 
 <h3> Working mechanism </h3>
 
+* honeychecker set
 ![honeychecker set](/images/honeychecker-set.drawio.svg)
 
+* honeychecker check
 ![honeychecker check](/images/honeychecker-check.drawio.svg)
 
 <h2> Other terminologies </h2>
